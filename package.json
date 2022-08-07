@@ -1,6 +1,7 @@
 {
   "name": "portfoliov2",
   "version": "0.1.0",
+  "homepage": "https://tuannna1.github.io/porfoliov2/",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -8,7 +9,9 @@
     "start": "next start",
     "type-check": "tsc --pretty --noEmit",
     "format": "prettier --write .",
-    "lint": "eslint . --ext ts --ext tsx --ext js"
+    "lint": "eslint . --ext ts --ext tsx --ext js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "husky": {
     "hooks": {
@@ -24,6 +27,7 @@
   "dependencies": {
     "@apollo/client": "^3.2.2",
     "animejs": "^3.2.1",
+    "gh-pages": "^4.0.0",
     "graphql": "^15.3.0",
     "intersection-observer": "^0.11.0",
     "next": "^11.1.2",

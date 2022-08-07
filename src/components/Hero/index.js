@@ -15,6 +15,7 @@ const Hero = () => {
 
   const one = <h1>Hi, My name is Tuan </h1>;
   const two = <StyledBigTitle>A Software Developer.</StyledBigTitle>;
+  // eslint-disable-next-line jsx-a11y/accessible-emoji
   const three = <StyledBigTitle slate>I build web and fix your heart ♥️😍.</StyledBigTitle>;
   const four = (
     <p>
