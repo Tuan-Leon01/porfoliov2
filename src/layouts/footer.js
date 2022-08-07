@@ -38,7 +38,7 @@ const Footer = () => {
 
       <StyledCredit tabindex="-1">
         <a rel="noreferrer" target="_blank" href="">
-          <div>Anh Tuan Portfolio - Web developer</div>
+          <div>Anh Tuan Portfolio v2.0 - Web developer</div>
         </a>
       </StyledCredit>
     </StyledFooter>
